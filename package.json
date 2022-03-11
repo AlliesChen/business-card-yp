@@ -1,5 +1,5 @@
 {
-  "name": "lumdb",
+  "name": "business-card-yp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,9 +12,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +33,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "webpack-cli": "^4.9.2"
   }
 }

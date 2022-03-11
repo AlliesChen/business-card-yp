@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+}
+
+.card {
+  margin: auto;
+  padding: 4vh 2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #23252c;
+  width: 550px;
+  height: 868px;
+}
+
+.portrait {
+  flex-shrink: 0;
+  display: flex;
+  width: 317px;
+  height: 317px;
+  background-color: #ccc;
+  border-radius: 10px 10px 0 0;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* todo check */
+.portrait > img {
+  height: 317px;
+}
+
+.info {
+  background-color: #1a1b21;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  width: 317px;
+  height: 399px;
+  padding: 2rem;
+  font-family: "Inter";
+}
+
+/* job title */
+.info h2 + p {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* contact link */
+.info > a {
+  color: #f5f5f5;
+  font-size: 10px;
+  margin: 1em 1em 2em 1em;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.contact > a {
+  width: 115px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 1.5rem;
+}
+
+.contact > a[data-link="mail"] {
+  background-color: #d1d5db;
+  color: #000;
+}
+
+.contact > a[data-link="linkedin"] {
+  background-color: #5093e2;
+  color: #fff;
+}
+
+.contact[data-link="social"] {
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  padding: 1rem;
+  border-radius: 0 0 10px 10px;
+}
+
+.article {
+  padding: 0.5rem 0;
+  align-self: flex-start;
+}
+
+.content {
+  font-size: 10px;
+}
