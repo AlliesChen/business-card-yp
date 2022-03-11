@@ -32,15 +32,10 @@ function Card() {
         <section className="article">
           <h4 className="article--title">About</h4>
           <p className="content">
-            Hello, I'm YuPung. I learned web development via vocational
-            training. I've skills for making prototype by Figma, and writing
-            HTML/CSS/JavaScript to build web apps. Please visit my portfolio in
-            this resume. I worked as product manager in industries of computer
-            peripheral and a start-up company. I'm familiar in using English and
-            have experience in business writing with customers in Europe. Since
-            meeting programming in my last job, I'm fascinated by it, especially
-            for the wide use of webpages, which makes me to decide to change
-            career.
+            Hello, I'm YuPung. I have learned using HTML/CSS/JavaScript to build
+            web apps. And able to make prototype by Figma. Since meeting
+            programming in my last job, I'm fascinated by it, especially for the
+            wide use of webpages, which makes me to decide to change career.
           </p>
         </section>
         <section className="article">
